@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-28T14:50:18 EDT" name="Default suite" finished-at="2023-07-28T14:50:49 EDT" duration-ms="31129">
+  <suite started-at="2023-08-02T18:04:08 EDT" name="Default suite" finished-at="2023-08-02T18:04:37 EDT" duration-ms="28771">
     <groups>
     </groups>
-    <test started-at="2023-07-28T14:50:18 EDT" name="Default test" finished-at="2023-07-28T14:50:49 EDT" duration-ms="31129">
-      <class name="testCase.TestRightClick">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TestRightClick@4466af20]" started-at="2023-07-28T14:50:18 EDT" name="setup" finished-at="2023-07-28T14:50:29 EDT" duration-ms="11602" status="PASS">
+    <test started-at="2023-08-02T18:04:08 EDT" name="Default test" finished-at="2023-08-02T18:04:37 EDT" duration-ms="28771">
+      <class name="testCase.TestHomeandPets">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TestHomeandPets@4466af20]" started-at="2023-08-02T18:04:08 EDT" name="setup" finished-at="2023-08-02T18:04:17 EDT" duration-ms="8767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_RightClick()[pri:0, instance:testCase.TestRightClick@4466af20]" started-at="2023-07-28T14:50:29 EDT" name="Test_RightClick" finished-at="2023-07-28T14:50:33 EDT" duration-ms="4134" status="PASS">
+        <test-method signature="Test001_openBedFurnPage()[pri:0, instance:testCase.TestHomeandPets@4466af20]" started-at="2023-08-02T18:04:17 EDT" name="Test001_openBedFurnPage" finished-at="2023-08-02T18:04:21 EDT" duration-ms="4390" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_RightClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TestRightClick@4466af20]" started-at="2023-07-28T14:50:33 EDT" name="tearDown" finished-at="2023-07-28T14:50:49 EDT" duration-ms="15327" status="PASS">
+        </test-method> <!-- Test001_openBedFurnPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TestHomeandPets@4466af20]" started-at="2023-08-02T18:04:21 EDT" name="tearDown" finished-at="2023-08-02T18:04:37 EDT" duration-ms="15558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCase.TestRightClick -->
+      </class> <!-- testCase.TestHomeandPets -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

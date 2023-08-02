@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCase.TestRightClick">
+      <class name="testCase.TestHomeandPets">
         <methods>
           <include name="tearDown"/>
-          <include name="Test_RightClick"/>
+          <include name="Test001_openBedFurnPage"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCase.TestRightClick -->
+      </class> <!-- testCase.TestHomeandPets -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
