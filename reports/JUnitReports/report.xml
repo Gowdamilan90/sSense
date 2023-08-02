@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="32.123" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="OutDoor Living" name="Title of your scenario" time="15.385">
+<system-out><![CDATA[
+Given I Launch the browser..................................................passed
+And Open Canadian Tire Website..............................................passed
+When I click outdoor living tab.............................................passed
+And I click on all outdoor living option....................................passed
+Then User must be able to go view all OutdoorLiving products................passed
+And Close the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OutDoor Living" name="Title of your scenario TWO" time="16.567">
+<system-out><![CDATA[
+Given I Launch the browser..................................................passed
+Given Open Canadian Tire Website............................................passed
+When I click on Hot Sale option.............................................passed
+And I click on Everyday Essentials..........................................passed
+And I click Laundry & Dish soap.............................................passed
+When I validate the title of the page.......................................passed
+And Close the browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
