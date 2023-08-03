@@ -2,6 +2,7 @@ package pageObject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -24,12 +25,17 @@ public class HomeN_PetsPage
 	@FindBy(xpath="//div[@class='nl-row nl-sub-categories']/div[5]/ul/li[5]/div/a[text()='Bedroom Furniture']")
 	WebElement bedrm_furn;
 	
-//	@FindBy()
-//	WebElement xxx;
-//	@FindBy()
-//	WebElement xxx;
-//	@FindBy()
-//	WebElement xxx;
+	@FindBy(xpath="//div[@class='nl-facet-bar--desktop']/div[6]/button")
+	public WebElement materials_checkbox;
+	@FindBy(xpath="//div/div/div[6]/div/div/ul/li[4]/div/label")
+	WebElement metal;
+	
+	@FindBy(xpath="//div[@id='title__categorylevelN-168-0059-4']") 
+	WebElement prdct;
+	
+	@FindBy(xpath="//div[@class='nl-authored-text-block--second-row--seo-title']/h2[text()='Bedroom Furniture Ideas']")
+	public WebElement textElement;
+	
 //	@FindBy()
 //	WebElement xxx;
 	
@@ -60,19 +66,32 @@ public class HomeN_PetsPage
 		if (title.equalsIgnoreCase("Bedroom Furniture | Canadian Tire"))
 		{
 			System.out.println("TestPassed");
-			Assert.assertEquals(true, true);
+			Assert.assertTrue(true);
 			System.out.println("Tile of the page is :"+title);
 		}
 		
 		else
 		{
 			System.out.println("TestFailed");
-			Assert.assertEquals(true, false);
+			Assert.assertTrue(false);
 			System.out.println("Tile of the pageshould be :"+title);
 			
 		}
 	}
 	
+	
+	public void click_matrl_ChekBox ()
+	{
+		materials_checkbox.click();
+		
+		metal.click();
+		
+	}
+	
+	public void click_product()
+	{
+		prdct.click();
+	}
 	
 	
 	
